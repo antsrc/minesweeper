@@ -1,0 +1,80 @@
+/* Styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#espacioTablero {
+    display: inline-block;
+    margin-top: 20px;
+    user-select: none;
+    border: 5px solid #eee;
+}
+
+.casilla {
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #bbb;
+    border-top-color: white;
+    border-left-color: white;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #eee;
+}
+
+.descubierta {
+    background-color: #eee;
+    border: none;
+    cursor: auto;
+}
+
+.marcada {
+    background-image: url("images/flag.png");
+    background-size: cover;
+}
+
+.mina {
+    background-image: url("images/bomb.png");
+    background-size: cover;
+}
+
+.explotada {
+    background-color: red;
+}
+
+.uno {
+    color: blue;
+}
+
+.dos {
+    color: green;
+}
+
+.tres {
+    color: red;
+}
+
+.cuatro {
+    color: darkblue;
+}
+
+.cinco {
+    color: brown;
+}
+
+.seis {
+    color: turquoise;
+}
+
+.siete {
+    color: black;
+}
+
+.ocho {
+    color: grey;
+}

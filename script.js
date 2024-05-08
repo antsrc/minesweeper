@@ -1,6 +1,10 @@
-const filas = 16;
+/* const filas = 16;
 const columnas = 16;
-const minas = 40;
+const minas = 40; */
+
+const filas = 4;
+const columnas = 4;
+const minas = 4;
 
 const espacioTablero = document.getElementById("espacioTablero");
 
@@ -133,7 +137,7 @@ function reproduceMensaje() {
   texto1.innerText = "Has descubierto " + numDescubiertas + " casillas";
   texto2.innerText =
     "Te quedan " +
-    (filas * columnas - numDescubiertas) +
+    (filas * columnas - numDescubiertas - minas) +
     " casillas por descubrir";
   mensaje.appendChild(texto1);
   mensaje.appendChild(texto2);
